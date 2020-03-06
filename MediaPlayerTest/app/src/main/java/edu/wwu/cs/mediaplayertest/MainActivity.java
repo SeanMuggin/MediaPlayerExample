@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
                     btn.setText("Pause Streaming");
 
                     if (initialStage) {
-                        new Player().execute("https://live.jams45.com/Upload/mp3/Migos%20Ft.%20Marshmello%20%e2%80%93%20Danger%20-%20Jams45.com.mp3");
+                        new Player().execute("https://live.jams45.com/Upload/mp3/%20$uicideBoy$%20%e2%80%93%20F**k%20Your%20Culture%20%20-%20Jams45.com.mp3");
+                        //Working Links
+                        //https://live.jams45.com/Upload/mp3/Migos%20Ft.%20Marshmello%20%e2%80%93%20Danger%20-%20Jams45.com.mp3
+                        //https://live.jams45.com/Upload/mp3/%20iLoveMakonnen%20%e2%80%93%20New%20Thing%20(Freestyle)%20-%20Jams45.com.mp3
                     } else {
                         if (!mediaPlayer.isPlaying())
                             mediaPlayer.start();
